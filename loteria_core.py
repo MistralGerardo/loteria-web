@@ -134,3 +134,6 @@ def ejecutar_loteria():
     numeros = generar_numeros(df)
 
     return numeros
+def obtener_sugerencias():
+    return ejecutar_loteria()
+
